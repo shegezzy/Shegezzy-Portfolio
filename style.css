@@ -173,6 +173,25 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
+/* Default styles for desktop */
+.home {
+    display: flex;
+    background: url("images/banner22.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  /* Styles for mobile */
+  @media only screen and (max-width: 600px) {
+    .home {
+      background-image: url("images/mobileee.jpg");
+    }
+  }
+
 .home .max-width{
   width: 100%;
   display: flex;
