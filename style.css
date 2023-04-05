@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner22.jpg") no-repeat center;
+    background: url("images/mobileee.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -176,7 +176,7 @@ section .title::after{
 /* Default styles for desktop */
 .home {
     display: flex;
-    background: url("images/banner22.jpg") no-repeat center;
+    background: url("images/mobileee.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -186,7 +186,7 @@ section .title::after{
   }
   
   /* Styles for mobile */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 320px) {
     .home {
       background-image: url("images/mobileee.jpg");
     }
